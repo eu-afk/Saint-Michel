@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import TelaLoginUser from './components/TelaLoginUser'
+import NavBar from "./components/Navbar/NavBar"
+import './index.css'
+
 
 function App() {
 
   return (
     <>
-      <TelaLoginUser />
+      <NavBar />
     </>
   )
 }
