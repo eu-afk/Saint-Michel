@@ -1,12 +1,11 @@
-import NavBar from "./components/Navbar/NavBar"
+import LoginPage from "./components/Login/LoginPage"
 import './index.css'
-
 
 function App() {
 
   return (
     <>
-      <NavBar />
+    <LoginPage />
     </>
   )
 }
