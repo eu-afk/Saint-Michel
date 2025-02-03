@@ -1,24 +1,44 @@
-import React from 'react'
-import './Navbar.css'
+import React from "react";
+import { FaPhone, FaClock, FaMapMarkerAlt, FaSearch } from "react-icons/fa";
+import "./Navbar.css"; // Importando o CSS
 
-
-const NavBar = () => {
+export default function Navbar() {
   return (
-    <>
-    <nav>
-      <div className='container-header'><img src='./src/assets/img/logo.png' alt="" className='logo-first'/></div>
-      </nav>
-      <header className="header">
-        <nav className="navbar">
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Portfolio</a>
-          <a href="/">Services</a>
-          <a href="/">Contact</a>
-        </nav>
-      </header>
-    </>
-  )
-}
+    <header className="header">
+      <div className="top-bar">
+        <div className="logo">
+          <span className="hospital-name">HOSPITAL SAINT-MICHEL</span>
+          <span className="tagline">Cuidar de você é nossa missão divina.</span>
+        </div>
+        <div className="contact-info">
+          <div className="info-item">
+            <FaPhone />
+            <span>EMERGÊNCIA (11) 6818-1255</span>
+          </div>
+          <div className="info-item">
+            <FaClock />
+            <span>HORÁRIO DE TRABALHO 09:00 - 20:00 Todo dia</span>
+          </div>
+          <div className="info-item">
+            <FaMapMarkerAlt />
+            <span>LOCALIZAÇÃO Av. Marechal Tito, 3400</span>
+          </div>
+        </div>
+      </div>
 
-export default NavBar
+      <nav className="navbar">
+        <div className="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Sobre</a>
+          <a href="#">Serviços</a>
+          <a href="#">Doutores</a>
+          <a href="#">Contato</a>
+        </div>
+        <div className="nav-actions">
+          <FaSearch className="search-icon" />
+          <button className="login-button">LOGIN</button>
+        </div>
+      </nav>
+    </header>
+  );
+}
