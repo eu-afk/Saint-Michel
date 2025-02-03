@@ -3,9 +3,11 @@ import './Navbar.css'
 
 
 const NavBar = () => {
-  return (
+  return (  
     <header className="header">
-      <a href="/" className="logo"></a>
+      
+      <a href="/" className="logo">LOGO</a>
+     
 
       <nav className="navbar">
             <a href="/">Home</a>
@@ -14,7 +16,7 @@ const NavBar = () => {
             <a href="/">Services</a>
             <a href="/">Contact</a>
             </nav>
-    </header>
+    </header>  
   )
 }
 
