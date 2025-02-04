@@ -7,8 +7,10 @@ export default function Navbar() {
     <header className="header">
       <div className="top-bar">
         <div className="logo">
-          <span className="hospital-name">HOSPITAL SAINT-MICHEL</span>
-          <span className="tagline">Cuidar de você é nossa missão divina.</span>
+          <img src="" alt="" />
+          <img src="../src/assets/img/logo 2.png" alt=""  className="logo"/>
+          {/* <span className="hospital-name">HOSPITAL SAINT-MICHEL</span>
+          <span className="tagline">Cuidar de você é nossa missão divina.</span> */}
         </div>
         <div className="contact-info">
           <div className="info-item">
