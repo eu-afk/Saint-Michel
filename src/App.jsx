@@ -3,14 +3,11 @@
 import Footer from "./components/Footer/Footer"
 import NavBar from "./components/Navbar/NavBar"
 import Login from "./Pages/Login/LoginPage"
-import './index.css'
 import SobrePage from "./Pages/Sobre/SobrePage"
-
 function App() {
 
   return (
     <>
-      <SobrePage />
     </>
   )
 }
