@@ -17,8 +17,7 @@
   .logo {
     display: flex;
     flex-direction: column;
-    /* width: 10%;
-    height: ; */
+    width: 33%;
   }
   
   .hospital-name {
@@ -76,11 +75,12 @@
   }
   
   .login-button {
-    background-color: #91a3d0;
+    background-color: #BFD2F8;
     border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-    color: white;
+    padding: 8px 60px;
+    border-radius: 30px;
+    margin-right: 100px;
+    color: #1F2B6C;
     font-weight: bold;
     cursor: pointer;
   }

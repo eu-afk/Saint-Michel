@@ -7,7 +7,8 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <h1>SM</h1>
+        <img src="../src/assets/img/logo footer.png" alt=""  className="logo"/>
+          
           <p>Cuidar de você é nossa missão divina</p>
         </div>
 
