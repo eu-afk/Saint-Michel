@@ -1,6 +1,125 @@
+ .imagem{
+    width: 100%;
+}
 
-.carrossel{
-    margin-left: 350px;
-    margin-top: 200px;
-    width: 5000px;
+.agendamentos {
+    background-color: rgba(31, 43, 108, 255);
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    width: 220px;
+    height: 60px;
+    color: white;
+    display: flex;
+}
+.calendario{
+    width: 30px;
+    margin-left: 20px;
+}
+
+.medico{
+    background-color:rgba(191,210,248,255) ;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    width: 220px;
+    height: 60px;
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.pessoas{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.container{
+        display: flex;
+       flex-direction: row;
+      justify-content: center;
+       margin-top: 10px;
+    }
+
+.titulo{
+    color: rgba(79,182,240,255);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.segundoTitulo{
+    text-align: center;
+    margin-top: -15px;
+    font-family: 'sans-serif';
+    color: rgba(31, 43, 108, 255);
+    font-weight: bold;
+}
+
+.paragrafo{
+    text-align: center;
+}
+    
+.saibaMais{
+    text-align: center;
+    color: rgba(79,182,240,255);
+    font-size: 15px;
+}
+
+.seta{
+    margin-left: 5px;
+}
+a { 
+    color: inherit;
+ } 
+ .medicos{
+    width: 100%;
+}
+
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-container {
+    width: 160px;
+    margin-top: 20px;
+}
+.menu {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin-left: -250px;
+}
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+}
+.light {
+    background-color: #f1f7ff;
+    color: black;
+}
+.dark {
+    background-color: #1e2b64;
+    color: white;
+}
+.menu-item img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+.frase{
+    margin-left: 200px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-top: -50px;
 }
