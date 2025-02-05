@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/NavBar'
 import Footer from '../../components/Footer/Footer'
+import Banner from '../../components/Banner/Banner'
 import './sobrePage.css'
 
 export default function SobrePage() {
@@ -43,11 +44,8 @@ export default function SobrePage() {
                         </p>
                     </div>
                 </div>
-
             </div>
-
-            <img src="../src/img/Banner-Baixo-Sobre.png" alt="" className='Banner-Baixo-Sobre' />
-
+            <Banner />
             <Footer />
         </>
     )

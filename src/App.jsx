@@ -16,6 +16,9 @@ function App() {
   return (
     <>
       <Medico/>
+      {/* <Servicos /> */}
+      <SobrePage />
+      <Servicos />
     </>
   )
 }
