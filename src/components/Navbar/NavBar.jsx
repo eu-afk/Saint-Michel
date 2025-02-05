@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="top-bar">
         <div className="logo">
           <img src="" alt="" />
-          <img src="../src/assets/img/logo 2.png" alt=""  className="logo"/>
+          <img src="../src/img/logo 2.png" alt=""  className="logo"/>
           {/* <span className="hospital-name">HOSPITAL SAINT-MICHEL</span>
           <span className="tagline">Cuidar de você é nossa missão divina.</span> */}
         </div>
