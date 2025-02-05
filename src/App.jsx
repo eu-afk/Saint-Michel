@@ -1,5 +1,4 @@
 
-// import LoginPage from "./components/Login/LoginPage"
 import './index.css'
 import Footer from "./components/Footer/Footer"
 import NavBar from "./components/Navbar/NavBar"
@@ -16,9 +15,6 @@ function App() {
   return (
     <>
       <Medico/>
-      {/* <Servicos /> */}
-      <SobrePage />
-      <Servicos />
     </>
   )
 }

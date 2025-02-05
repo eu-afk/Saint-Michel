@@ -4,12 +4,12 @@ import Navbar from "../../components/Navbar/NavBar";
 import Footer from "../../components/Footer/Footer";
 
 const doctors = [
-  { name: "Dr. Flávio", specialty: "Neurologista", image: "doctor1.jpg" },
-  { name: "Dr. Márcio", specialty: "Neurologista", image: "doctor2.jpg" },
-  { name: "Dra. Ellen", specialty: "Neurologista", image: "doctor3.jpg" },
-  { name: "Dr. Flávio", specialty: "Neurologista", image: "doctor1.jpg" },
-  { name: "Dr. Márcio", specialty: "Neurologista", image: "doctor2.jpg" },
-  { name: "Dra. Ellen", specialty: "Neurologista", image: "doctor3.jpg" },
+  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
+  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
+  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
+  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
+  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
+  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
 ];
 
 const DoctorCard = ({ name, specialty, image }) => {
@@ -30,16 +30,18 @@ const DoctorCard = ({ name, specialty, image }) => {
   );
 };
 
-const Doutores = () => {
+const Medico = () => {
   return (
     <>
+      <Navbar />
       <div className="container">
         {doctors.map((doctor, index) => (
           <DoctorCard key={index} {...doctor} />
         ))}
       </div>
+      <Footer />
     </>
   );
 };
 
-export default Doutores;
+export default Medico;
