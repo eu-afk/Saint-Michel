@@ -48,13 +48,9 @@
     width: 600px;
     justify-content: center;
     margin-left: 20px;
+    text-align: center;
 }
 
 .img-medicas-sobre {
     width: 500px;
-}
-
-.Banner-Baixo-Sobre {
-    width: 100%;
-    margin-top: 80px;
 }
