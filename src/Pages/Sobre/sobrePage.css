@@ -1,7 +1,7 @@
 .container-sobre-master {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .img-doutores-sobre {
@@ -9,7 +9,6 @@
 }
 
 .container-sobre {
-    width: 800px;
     padding-left: 20px;
     text-align: start;
     justify-content: center;
@@ -17,34 +16,45 @@
 }
 
 .titulo-sobre {
-    font-size: 30px;
+    font-size: 20px;
     color: #159EEC;
 }
 
 .subTitulo-sobre {
     color: #1F2B6C;
+    font-size: 50px;
 }
 
 .container-listas {
     display: flex;
-    justify-content: center;
 }
 
-ul {
-    margin-left: 55px;
+.ul-container-listas {
+    margin-left: 15px;
+}
+
+.li-container-listas {
+    font-size: 25px;
+    padding: 10px;
 }
 
 .texto-sobre {
     text-align: start;
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .container-texto-sobre {
     width: 600px;
     justify-content: center;
-    margin: auto;
+    margin-left: 20px;
 }
 
 .img-medicas-sobre {
-    width: 400px;
+    width: 500px;
+}
+
+.Banner-Baixo-Sobre {
+    width: 100%;
+    margin-top: 80px;
 }

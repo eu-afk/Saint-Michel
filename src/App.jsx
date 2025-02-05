@@ -13,7 +13,8 @@ function App() {
 
   return (
     <>
-    <Servicos/>
+      <Servicos />
+      {/* <SobrePage /> */}
     </>
   )
 }
