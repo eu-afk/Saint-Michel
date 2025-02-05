@@ -12,7 +12,7 @@ body {
 .container {
     width: 55%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 2%;
     padding: 20px;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .card {
     background: rgb(255, 255, 255);
-    padding: 20px;
+    /* padding: 20px; */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -38,7 +38,7 @@ body {
 
 .image {
     height: 190px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .content h3 {
@@ -78,14 +78,17 @@ body {
 
 .image .imgCard {
     width: 100%;
-    height: 150px;
-    border-radius: 10px;
+    height: 200px;
+    border-radius: 2px;
     object-fit: cover;
 }
+
+
+
 /* Parte de contato */
 .contact-section {
     padding: 20px;
-    margin-top: 40px;
+    /* margin-top: 3%; */
     text-align: center; /* Centraliza o conteúdo */
 }
 
@@ -115,7 +118,8 @@ body {
     text-align: center;
     transition: transform 0.3s ease-in-out;
     border-radius: 8px; /* Deixa os corners levemente arredondados */
-    height: 180px; /* Mantém os cards quadrados */
+    height: 190px; /* Mantém os cards quadrados */
+    
 }
 
 .contact-card:hover {
