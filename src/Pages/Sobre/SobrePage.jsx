@@ -46,6 +46,7 @@ export default function SobrePage() {
                 </div>
             </div>
             <Banner />
+            
             <Footer />
         </>
     )

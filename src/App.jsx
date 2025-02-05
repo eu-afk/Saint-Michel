@@ -13,12 +13,9 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
       {/* <Servicos /> */}
       <SobrePage />
-=======
       <Servicos />
->>>>>>> e3f076f6da4d3d7c67a004ab503df79bc64dd602
     </>
   )
 }
