@@ -1,0 +1,73 @@
+
+/* Parte de contato */
+.contact-section {
+    padding: 20px;
+    /* margin-top: 3%; */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.contact-section h2 {
+    font-size: 18px; /* Tamanho da fonte pequena */
+    color: #159EEC; /* Cor azul claro */
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+.contact-section .CONTATO {
+    color: #1F2B6C; /* Azul escuro */
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 60px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-card {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px; /* Deixa os corners levemente arredondados */
+    height: 190px; /* Mantém os cards quadrados */
+    
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-card h4 {
+    color: #1F2B6C; /* Cor azul claro para os títulos */
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    color: #007bff; /* Azul escuro para as informações */
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.contact-img img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: 50px; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 10px; /* Espaçamento entre a imagem e o texto */
+  }
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .contact-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-grid {
+        grid-template-columns: 1fr; /* 1 coluna em telas muito pequenas */
+    }
+}
