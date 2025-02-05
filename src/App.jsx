@@ -13,8 +13,9 @@ function App() {
 
   return (
     <>
-      <Servicos />
+      {/*<Servicos />*/}
       {/* <SobrePage /> */}
+      <HomePage/>
     </>
   )
 }
