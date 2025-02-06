@@ -17,7 +17,6 @@ body {
     justify-content: center; /* Alinha os cards horizontalmente */
     align-items: center; /* Alinha os cards verticalmente */
     flex-direction: column;
-    margin-left: 25%;
 }
 
 .cards-section {
@@ -27,7 +26,6 @@ body {
     justify-items: center; /* Centraliza os cards dentro da grid */
     margin-top: 20px;
     width: 100%;
-
     /* Garantindo que a grid ocupe todo o espaço disponível */
     max-width: 100%;
 }

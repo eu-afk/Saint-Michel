@@ -34,11 +34,11 @@ const Contatos = () => {
         <h3 className="subtitulo-contato">Contatos</h3>
         <form className="contato-form">
           <div className="form-row">
-            <input type="text" name="nome" placeholder="Nome" required />
-            <input type="email" name="email" placeholder="Email" required />
+            <input type="text" name="nome" placeholder="Nome" required className="placeholder-branco" />
+            <input type="email" name="email" placeholder="Email" required className="placeholder-branco" />
           </div>
-          <input type="text" name="assunto" placeholder="Assunto" required />
-          <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+          <input type="text" name="assunto" placeholder="Assunto" required className="placeholder-branco" />
+          <textarea name="mensagem" placeholder="Mensagem" required className="placeholder-branco"></textarea>
           <button type="submit">ENVIAR</button>
         </form>
       </div>

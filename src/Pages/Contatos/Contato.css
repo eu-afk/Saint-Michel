@@ -44,7 +44,8 @@
   }
   
   .titulo-contato {
-    color: #007bff;
+    color: #159EEC;
+    font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -107,4 +108,7 @@
     margin-top: 40px;
   }
   
+  .placeholder-branco::placeholder {
+    color: white;
+  }
   
