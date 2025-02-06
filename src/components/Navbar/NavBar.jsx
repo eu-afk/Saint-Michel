@@ -10,22 +10,25 @@ export default function Navbar() {
       <div className="top-bar">
         <div className="logo">
           <img src="" alt="" />
-          <img src="../src/img/logo 2.png" alt="" className="logo" />
-          {/* <span className="hospital-name">HOSPITAL SAINT-MICHEL</span>
-          <span className="tagline">Cuidar de você é nossa missão divina.</span> */}
+          <img src="../src/img/logo 2.png" alt="Logo" className="logo" />
         </div>
         <div className="contact-info">
           <div className="info-item">
-            <FaPhone />
-            <span>EMERGÊNCIA (11) 6818-1255</span>
+            <img src="src/img/icons8-volume-da-campainha-30.png " alt="Phone" className="icon-img" />
+            <span>EMERGÊNCIA
+              <br /> (11) 6818-1255</span>
           </div>
           <div className="info-item">
-            <FaClock />
-            <span>HORÁRIO DE TRABALHO 09:00 - 20:00 Todo dia</span>
+            <img src="src/img/icons8-relógio-30.png" alt="Clock" className="icon-img" />
+            <span>HORÁRIO DE TRABALHO
+              <br />
+               09:00 - 20:00 Todo dia</span>
           </div>
           <div className="info-item">
-            <FaMapMarkerAlt />
-            <span>LOCALIZAÇÃO Av. Marechal Tito, 3400</span>
+            <img src="src/img/icons8-marcador-30.png" alt="Location" className="icon-img" />
+            <span>LOCALIZAÇÃO 
+              <br />
+              Av. Marechal Tito, 3400</span>
           </div>
         </div>
       </div>
@@ -34,7 +37,7 @@ export default function Navbar() {
         <div className="nav-links">
           <Link to='/'>Home</Link>
           <Link to='/sobre'>Sobre</Link>
-          <Link to='/servicos'>Servicos</Link>
+          <Link to='/servicos'>Serviços</Link>
           <Link to='/doutores'>Doutores</Link>
           <Link to='/contato'>Contato</Link>
         </div>

@@ -7,6 +7,7 @@ import medicos from '../../img/medicos.png';
 import azul from '../../img/azul.png';
 import Navbar from '../../components/Navbar/NavBar';
 import Footer from '../../components/Footer/Footer';
+<<<<<<< HEAD
 import checkup from '../../img/checkup.png';
 import cardiograma from '../../img/cardiograma.png';
 import dna from '../../img/dna.png';
@@ -28,6 +29,9 @@ import renal from '../../img/renal.png';
 import urologia from '../../img/urologia.png';
 import dermatologia from '../../img/dermatologia.png';
 import ginecologia from '../../img/ginecologia.png';*/
+=======
+import { Link } from 'react-router-dom';
+>>>>>>> f467530030f8d2248b897afbd5bd3c09030ca41c
 
 const services = [
     { img: checkup, style: 'light' },
@@ -71,8 +75,13 @@ const HomePage = () => {
                 <h4 className='segundoTitulo'>Um ótimo lugar para receber cuidados</h4>
                 <p className='paragrafo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat <br />scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur<br /> proin massa in. Consequat faucibus porttitor enim et.</p>
 
+<<<<<<< HEAD
                 <p className='saibaMais'> <a href="#">Saiba mais</a>
                     <img className='seta' src={seta} alt="Seta" />
+=======
+                <p className='saibaMais'> <Link to='/servicos'>Saiba mais</Link>
+                    <img className='seta' src="../src/img/seta.png" />
+>>>>>>> f467530030f8d2248b897afbd5bd3c09030ca41c
                 </p>
                 <img className='medico' src={medicos} alt="Médicos" />
                 <p className='titulo'>CUIDADO EM QUE VOCÊ PODE ACREDITAR</p>

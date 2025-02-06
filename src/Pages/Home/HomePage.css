@@ -123,10 +123,10 @@
 
 
  .frase-homepage {
-    position: relative;
-    top: -340px;
-    font-size: 25px;
-   text-align: center;
+     position: relative;
+     top: -340px;
+     font-size: 25px;
+     text-align: center;
  }
 
 
@@ -138,63 +138,32 @@
      text-align: center;
  }
 
+ .pointer-vertudo {
+    
+ }
+
  .services-container {
-    text-align: center;
+     text-align: center;
  }
 
  .lista-homepage {
-    display: flex;
-    justify-content: center;
-    gap: 50px; 
-    width: 100%;
-    position: relative;
-    top: -320px;
-    align-items: center;
-    justify-content: center;
-    
-
-}
-
-.lista-homepage ul {
-    list-style: none;
-}
-
-.lista-homepage ul li {
-    font-size: 20px;
-    color: #2c3e50;
-    position: relative;
-    margin-bottom: 10px;
-    padding-left: 25px;
-}
-
-.lista-homepage ul li::before {
-    content: "•";
-    color: #007bff;
-    font-size: 22px;
-    position: absolute;
-    left: 0;
-    top: 2px;
-}
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+     width: 100%;
+     position: relative;
+     top: -320px;
+     align-items: center;
+     justify-content: center;
 
 
-.imgLateral {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
-    gap: 20px; 
-    position: relative;
-    top: -800px;
-   margin: 200px;
-  
-}
+ }
 
-.segundoParagrafo{
-    text-align: center;
-    top: -1150px;
-    position: relative;
-    font-size: 18px;
-}
+ .lista-homepage ul {
+     list-style: none;
+ }
 
+<<<<<<< HEAD
 .subtitulosHome{
     position: relative;
     top: -1050px;
@@ -237,3 +206,45 @@
 .ortopedia:hover {
     background-color: #4d94ff !important; /* Azul claro */
 }
+=======
+ .lista-homepage ul li {
+     font-size: 20px;
+     color: #2c3e50;
+     position: relative;
+     margin-bottom: 10px;
+     padding-left: 25px;
+ }
+
+ .lista-homepage ul li::before {
+     content: "•";
+     color: #007bff;
+     font-size: 22px;
+     position: absolute;
+     left: 0;
+     top: 2px;
+ }
+
+
+ .imgLateral {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     gap: 20px;
+     position: relative;
+     top: -800px;
+     margin: 200px;
+
+ }
+
+ .segundoParagrafo {
+     text-align: center;
+     top: -1150px;
+     position: relative;
+     font-size: 18px;
+ }
+
+ .subtitulosHome {
+     position: relative;
+     top: -1050px;
+ }
+>>>>>>> f467530030f8d2248b897afbd5bd3c09030ca41c

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar/NavBar'
 import Footer from '../../components/Footer/Footer'
 import Banner from '../../components/Banner/Banner'
+import Doutores from '../../components/Doutores/Doutores'
 import './sobrePage.css'
 
 export default function SobrePage() {
@@ -46,6 +47,7 @@ export default function SobrePage() {
                 </div>
             </div>
             <Banner />
+            <Doutores />
             
             <Footer />
         </>
