@@ -9,15 +9,17 @@ import SobrePage from "./Pages/Sobre/SobrePage"
 import Servicos from "./Pages/Serviços/Servicos"
 import Medico from './Pages/Medicos/Medico'
 import Doutores from './components/Doutores/Doutores'
+import Contatos from './Pages/Contatos/Contato'
 
 function App() {
 
   return (
     <>
-      <Medico/>
+      {/* <Medico/> */}
       {/* <Servicos /> */}
       {/* <SobrePage /> */}
-      {/* <HomePage /> */}
+      <HomePage />
+      {/* <Contatos/> */}
     </>
   )
 }
