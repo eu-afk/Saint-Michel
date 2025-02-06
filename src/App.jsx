@@ -15,9 +15,9 @@ function App() {
   return (
     <>
       {/* <Medico/> */}
-      <Servicos />
+     {/*  <Servicos /> */}
       {/* <SobrePage /> */}
-      {/* <HomePage /> */}
+      <HomePage />
     </>
   )
 }
