@@ -1,5 +1,7 @@
 import React from "react";
 import { FaPhone, FaClock, FaMapMarkerAlt, FaSearch } from "react-icons/fa";
+import { Link } from 'react-router-dom';
+
 import "./Navbar.css"; // Importando o CSS
 
 export default function Navbar() {
@@ -8,7 +10,7 @@ export default function Navbar() {
       <div className="top-bar">
         <div className="logo">
           <img src="" alt="" />
-          <img src="../src/img/logo 2.png" alt=""  className="logo"/>
+          <img src="../src/img/logo 2.png" alt="" className="logo" />
           {/* <span className="hospital-name">HOSPITAL SAINT-MICHEL</span>
           <span className="tagline">Cuidar de você é nossa missão divina.</span> */}
         </div>
@@ -30,11 +32,11 @@ export default function Navbar() {
 
       <nav className="navbar">
         <div className="nav-links">
-          <a href="#">Home</a>
-          <a href="#">Sobre</a>
-          <a href="#">Serviços</a>
-          <a href="#">Doutores</a>
-          <a href="#">Contato</a>
+          <Link to='/'>Home</Link>
+          <Link to='/sobre'>Sobre</Link>
+          <Link to='/servicos'>Servicos</Link>
+          <Link to='/doutores'>Doutores</Link>
+          <Link to='/contato'>Contato</Link>
         </div>
         <div className="nav-actions">
           <FaSearch className="search-icon" />
