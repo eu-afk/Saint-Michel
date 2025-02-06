@@ -199,3 +199,41 @@
     position: relative;
     top: -1050px;
 }
+.especialidades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.especialidade {
+    background-color: white;
+    border: 2px solid #007bff;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    top: -1000px;
+    position: relative;
+}
+
+.especialidade:hover {
+    transform: scale(1.1);
+    background-color: #e0f0ff;
+}
+
+.selecionado {
+    background-color: #1e2b64;
+    color: white;
+}
+.ortopedia {
+    background-color: #002b80 !important; /* Azul escuro */
+}
+
+.ortopedia:hover {
+    background-color: #4d94ff !important; /* Azul claro */
+}
