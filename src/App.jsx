@@ -14,8 +14,13 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
       {/* <Medico/> */}
      {/*  <Servicos /> */}
+=======
+      <Medico/>
+      {/* <Servicos /> */}
+>>>>>>> 64651a73f90ddf4cba0f5ebfcb71cfe8401aadb1
       {/* <SobrePage /> */}
       <HomePage />
     </>
