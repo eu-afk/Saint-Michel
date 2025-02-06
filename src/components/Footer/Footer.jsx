@@ -7,10 +7,9 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-logo">
-          <h1>SM</h1>
+          <img src="src/img/FooterLogo.png" alt="Logo do Hospital Saint-Michel" className="logo-footer" />
           <p>Cuidar de você é nossa missão divina</p>
         </div>
-
 
         <div className="footer-links">
           <h3>Links Importantes</h3>

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Contato.css";
-import Navbar from "../../components/Navbar/NavBar";
-import Footer from "../../components/Footer/Footer";
+
 
 
 const ContactInfo = [

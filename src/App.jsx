@@ -14,10 +14,10 @@ function App() {
 
   return (
     <>
-      <Medico/>
-      {/*<Servicos />*/}
+      {/* <Medico/> */}
+      <Servicos />
       {/* <SobrePage /> */}
-      <HomePage />
+      {/* <HomePage /> */}
     </>
   )
 }
