@@ -34,7 +34,7 @@ export default function Navbar() {
         <div className="nav-links">
           <Link to='/'>Home</Link>
           <Link to='/sobre'>Sobre</Link>
-          <Link to='/servicos'>Servicos</Link>
+          <Link to='/servicos'>Serviços</Link>
           <Link to='/doutores'>Doutores</Link>
           <Link to='/contato'>Contato</Link>
         </div>
