@@ -7,6 +7,7 @@ import medicos from '../../img/medicos.png';
 import azul from '../../img/azul.png';
 import Navbar from '../../components/Navbar/NavBar';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 const services = [
     { img: '../src/img/checkup.png', style: 'light' },
@@ -35,7 +36,7 @@ const HomePage = () => {
                 <h4 className='segundoTitulo'>Um ótimo lugar para receber cuidados</h4>
                 <p className='paragrafo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat <br />scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur<br /> proin massa in. Consequat faucibus porttitor enim et.</p>
 
-                <p className='saibaMais'> <a href="">Saiba mais</a>
+                <p className='saibaMais'> <Link to='/servicos'>Saiba mais</Link>
                     <img className='seta' src="../src/img/seta.png" />
                 </p>
                 <img className='medico' src="../src/img/medicos.png" />
@@ -51,11 +52,12 @@ const HomePage = () => {
                     {services.map((service, index) => (
                         <div key={index} className={`menu-item ${service.style}`}>
                             <img src={service.img} style={{ width: '90px', height: '70px' }} />
+
                         </div>
+
+
                     ))}
-                    <div className="ver-tudo">
-                        <a href="#">Ver tudo</a>
-                    </div>
+                    <div className="ver-tudo"><a href="#">Ver tudo</a></div>
                 </div>
 
                 <h1 className='frase-homepage'>Paixão por colocar os pacientes em </h1>
@@ -82,12 +84,12 @@ const HomePage = () => {
 
                 <div className='segundoParagrafo'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare<br /> ornare  Convallis felis vitae tortor augue. Velit nascetur proin massa in. <br /> Consequat faucibus porttitor enim et.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque.<br /> Convallis felis vitae tortor augue. Velit nascetur proin massa in.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque.<br/> Convallis felis vitae tortor augue. Velit nascetur proin massa in.</p>
                 </div>
-
+                
                 <div className='subtitulosHome'>
-                    <p className='titulo'>SEMPRE CUIDANDO</p>
-                    <h4 className='segundoTitulo'>Nossas Especialidades</h4>
+                <p className='titulo'>SEMPRE CUIDANDO</p>
+                <h4 className='segundoTitulo'>Nossas Especialidades</h4>
                 </div>
             </div>
             <Footer />
