@@ -14,18 +14,10 @@
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.9",
     "react-dom": "^18.3.1",
-<<<<<<< HEAD
     "react-icons": "^5.4.0",
-    "react-router-dom": "^7.1.5"
-=======
-    "react-icon": "^1.0.0",
-<<<<<<< HEAD
-    "react-icons": "^5.4.0",
+    "react-router-dom": "^7.1.5",
+  
     "react-native-maps": "^1.20.1"
-=======
-    "react-icons": "^5.4.0"
->>>>>>> 18d2e1c7168913adc63240f4c385a6da54a3a18b
->>>>>>> 412785ca149cdca138d00c003a13bc7dba17f7fb
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
