@@ -51,12 +51,11 @@ const HomePage = () => {
                     {services.map((service, index) => (
                         <div key={index} className={`menu-item ${service.style}`}>
                             <img src={service.img} style={{ width: '90px', height: '70px' }} />
-
                         </div>
-
-
                     ))}
-                    <div className="ver-tudo"><a href="">Ver tudo</a></div>
+                    <div className="ver-tudo">
+                        <a href="#">Ver tudo</a>
+                    </div>
                 </div>
 
                 <h1 className='frase-homepage'>Paixão por colocar os pacientes em </h1>
@@ -83,12 +82,12 @@ const HomePage = () => {
 
                 <div className='segundoParagrafo'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare<br /> ornare  Convallis felis vitae tortor augue. Velit nascetur proin massa in. <br /> Consequat faucibus porttitor enim et.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque.<br/> Convallis felis vitae tortor augue. Velit nascetur proin massa in.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque.<br /> Convallis felis vitae tortor augue. Velit nascetur proin massa in.</p>
                 </div>
-                
+
                 <div className='subtitulosHome'>
-                <p className='titulo'>SEMPRE CUIDANDO</p>
-                <h4 className='segundoTitulo'>Nossas Especialidades</h4>
+                    <p className='titulo'>SEMPRE CUIDANDO</p>
+                    <h4 className='segundoTitulo'>Nossas Especialidades</h4>
                 </div>
             </div>
             <Footer />
