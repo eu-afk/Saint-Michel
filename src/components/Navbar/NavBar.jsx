@@ -10,7 +10,8 @@ export default function Navbar() {
       <div className="top-bar">
         <div className="logo">
           <img src="" alt="" />
-          <img src="../src/img/logo 2.png" alt="Logo" className="logo" />
+          <img src="../src/img/LogoAzul.png" alt="Logo" className="logo" />
+          <img src="../src/img/fraseAzul.png" alt="Logo" className="logo-frase" />
         </div>
         <div className="contact-info">
           <div className="info-item">
