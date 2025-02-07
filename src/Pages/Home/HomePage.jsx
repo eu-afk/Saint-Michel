@@ -42,10 +42,10 @@ const services = [
 
 const especialidades = [
     { img: neurologia },
-    { img: ortopedia, style: 'dark'  },
+    { img: ortopedia, style: 'dark' },
     { img: oncologia },
     { img: otorrino },
-    {img: oftalmologia},
+    { img: oftalmologia },
     /* { img: cardiologia, nome: "Cardiovascular" }, */
     { img: pneumologia },
     { img: renal },
@@ -75,13 +75,8 @@ const HomePage = () => {
                 <h4 className='segundoTitulo'>Um ótimo lugar para receber cuidados</h4>
                 <p className='paragrafo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat <br />scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur<br /> proin massa in. Consequat faucibus porttitor enim et.</p>
 
-<<<<<<< HEAD
-                <p className='saibaMais'> <a href="#">Saiba mais</a>
-                    <img className='seta' src={seta} alt="Seta" />
-=======
                 <p className='saibaMais'> <Link to='/servicos'>Saiba mais</Link>
                     <img className='seta' src="../src/img/seta.png" />
->>>>>>> f467530030f8d2248b897afbd5bd3c09030ca41c
                 </p>
                 <img className='medico' src={medicos} alt="Médicos" />
                 <p className='titulo'>CUIDADO EM QUE VOCÊ PODE ACREDITAR</p>
