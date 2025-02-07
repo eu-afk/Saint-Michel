@@ -1,4 +1,8 @@
-/* Estilos gerais */
+.card-doutores {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .container-doutores {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -6,6 +10,7 @@
   padding: 20px;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .doctor-image {
@@ -49,7 +54,8 @@
 .card-info-h3 {
   font-size: 30px;
 }
-.card-info-p{
+
+.card-info-p {
   margin-top: -20px;
   font-size: 25px;
 }
