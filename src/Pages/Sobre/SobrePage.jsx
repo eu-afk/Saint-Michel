@@ -47,8 +47,14 @@ export default function SobrePage() {
                 </div>
             </div>
             <Banner />
+
+            <div className='titulo-subtitulo-sobre'>
+                <h1 className='titulo-sobre'>CUIDADO CONFIAVEL</h1>
+                <h2 className='subTitulo-sobre-2'>NOSSOS MÉDICOS</h2>
+            </div>
+
             <Doutores />
-            
+
             <Footer />
         </>
     )
