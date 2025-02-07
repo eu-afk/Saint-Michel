@@ -27,7 +27,8 @@
 }
 
 .logo-frase {
-  width: 40%;
+  width: 50%;
+  height: auto;
 }
 
 .hospital-name {
@@ -97,5 +98,5 @@
 }
 
 .login-button:hover {
-  background-color: #7c91c2;
+  background-color: #81a7ff;
 }
