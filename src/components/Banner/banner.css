@@ -1,60 +1,6 @@
 .Banner-Baixo-Sobre {
     width: 100%;
     margin-top: 80px;
-    margin-bottom: 100px; /* Espaço entre o banner e o footer */
-}
-
-.texto-banner-baixo-sobre {
-    max-width: 850px;
-    margin: auto;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
-
-.container-text {
-    margin-top: -603px; /* Ajustado para evitar sobreposição */
-    padding-bottom: 50px; /* Evita que o conteúdo toque o footer */
-}
-
-#linha {
-    width: 15%;
-    margin: auto;
-    border-bottom: 3px solid #ffffff;
-}
-
-.linhaTop {
-    margin-top: 30px;
-}
-
-#aspas {
-    padding: 0;
-    width: 30px;
-    margin: auto;
-    color: white;
-    font-size: 150px;
-}
-
-/* Responsividade */
-@media screen and (max-width: 768px) {
-    .texto-banner-baixo-sobre {
-        font-size: 20px;
-        width: 90%;
-    }
-
-    .container-text {
-        margin-top: -200px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .texto-banner-baixo-sobre {
-        font-size: 16px;
-        width: 95%;
-    }
-
-    #aspas {
-        font-size: 100px;
-    }
+    margin-bottom: 100px;
+    /* Espaço entre o banner e o footer */
 }
