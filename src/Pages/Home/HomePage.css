@@ -133,6 +133,7 @@
      list-style: none;
  }
 
+<<<<<<< HEAD
  .especialidades-grid {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
@@ -141,6 +142,20 @@
      width: 100px;
      margin: auto;
  }
+=======
+.subtitulosHome{
+    position: relative;
+    top: -1050px;
+}
+.especialidades-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto;
+}
+>>>>>>> a160f6b3bd00c2f52d785e310b818e5b784e6b3b
 
  .especialidade {
      background-color: white;
@@ -165,6 +180,13 @@
      background-color: #4d94ff !important;
  }
 
+<<<<<<< HEAD
+=======
+.ortopedia:hover {
+    background-color: #4d94ff !important; /* Azul claro */
+}
+
+>>>>>>> a160f6b3bd00c2f52d785e310b818e5b784e6b3b
  .lista-homepage ul li {
      font-size: 20px;
      color: #2c3e50;
@@ -205,6 +227,7 @@
      filter: brightness(0) invert(1);
 
  }
+<<<<<<< HEAD
 
  .medicoBranco {
      margin: auto;
@@ -220,3 +243,6 @@
 
      /* default 0 */
  }
+=======
+ 
+>>>>>>> a160f6b3bd00c2f52d785e310b818e5b784e6b3b
