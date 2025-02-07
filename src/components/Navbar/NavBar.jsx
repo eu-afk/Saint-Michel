@@ -22,11 +22,11 @@ export default function Navbar() {
             <img src="src/img/icons8-relógio-30.png" alt="Clock" className="icon-img" />
             <span>HORÁRIO DE TRABALHO
               <br />
-               09:00 - 20:00 Todo dia</span>
+              09:00 - 20:00 Todo dia</span>
           </div>
           <div className="info-item">
             <img src="src/img/icons8-marcador-30.png" alt="Location" className="icon-img" />
-            <span>LOCALIZAÇÃO 
+            <span>LOCALIZAÇÃO
               <br />
               Av. Marechal Tito, 3400</span>
           </div>
@@ -44,6 +44,12 @@ export default function Navbar() {
         <div className="nav-actions">
           <FaSearch className="search-icon" />
           <button className="login-button">LOGIN</button>
+        </div>
+        <div className="nav-actions">
+          <FaSearch className="search-icon" />
+          <button className="login-button">
+            <Link to='/cadastro'>Cadastro</Link>
+          </button>
         </div>
       </nav>
     </header>
