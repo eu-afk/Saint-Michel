@@ -163,7 +163,6 @@
      list-style: none;
  }
 
-<<<<<<< HEAD
 .subtitulosHome{
     position: relative;
     top: -1050px;
@@ -206,7 +205,7 @@
 .ortopedia:hover {
     background-color: #4d94ff !important; /* Azul claro */
 }
-=======
+
  .lista-homepage ul li {
      font-size: 20px;
      color: #2c3e50;
@@ -247,4 +246,4 @@
      position: relative;
      top: -1050px;
  }
->>>>>>> f467530030f8d2248b897afbd5bd3c09030ca41c
+ 

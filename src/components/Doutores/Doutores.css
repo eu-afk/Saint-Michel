@@ -3,6 +3,8 @@
   margin-right: 5%;
 }
 
+
+
 .container-doutores {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -14,8 +16,7 @@
 }
 
 .doctor-image {
-  width: 50%;
-  margin-left: 25%;
+  width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -33,6 +34,10 @@
   border-bottom-right-radius: 5px;
 }
 
+.profile-button-doutores:hover {
+  background-color: #1f2b6c8c;
+}
+
 
 .card-info-doutores {
   display: flex;
@@ -42,6 +47,15 @@
   background-color: #BFD2F8;
   width: 50%;
   margin: auto;
+}
+
+.card-info-doutores:hover {
+  transform: scale(1.01);
+}
+
+.Doctor-Hover:hover{
+  transform: scale(1.01);
+  background-color: #1f2b6c8c;
 }
 
 .texto-doutores {

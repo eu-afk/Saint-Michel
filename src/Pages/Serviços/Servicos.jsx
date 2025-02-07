@@ -25,15 +25,15 @@ export default function HealthPage() {
     <>
       <Navbar />
       <img src="../src/img/logo servico.png" className="img-servicos" alt="Logo Servicos" />
-      <div className="container">
-        <div className="cards-section grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="container-servicos">
+        <div className="cards-section-servicos">
           {cards.map((card) => (
-            <div key={card.id} className="card">
-              <div className="image">
-                <img src={"../src/img/cards.png"} alt={card.title} className="imgCard" />
+            <div key={card.id} className="card-servico">
+              <div className="image-servico">
+                <img src={"../src/img/cards.png"} alt={card.title} className="imgCard-servico" />
               </div>
-              <div className="content">
-                <h3 className="CHECKUP">{card.title}</h3>
+              <div className="content-servico">
+                <h3>{card.title}</h3>
                 <p>{card.description}</p>
                 <a href="#">Leia mais →</a>
               </div>
@@ -41,9 +41,7 @@ export default function HealthPage() {
           ))}
         </div>
       </div>
-
       <Contato/>
-
       <Footer />
     </>
   );
