@@ -19,16 +19,9 @@
  }
 
  .medico {
-     background-color: rgba(191, 210, 248, 255);
-     align-items: center;
-     justify-content: center;
-     text-align: center;
-     width: 220px;
-     height: 60px;
-     color: white;
+     margin: auto;
+     width: 60%;
      display: flex;
-     margin-left: 10px;
-     font-size: 18px;
  }
 
  .pessoas {
@@ -59,9 +52,8 @@
      font-size: 30px;
  }
 
- .paragrafo {
+ .paragrafoHome {
      text-align: center;
-
  }
 
  .saibaMais {
@@ -78,28 +70,20 @@
      color: inherit;
  }
 
- .medico {
-     margin: auto;
-     width: 80%;
-     height: 80%;
- }
-
  .homepage-container {
      flex-direction: column;
      align-items: center;
  }
 
- .menu {
-     width: 10%;
+ .menu-servicos-homepage {
+     width: 8%;
      justify-content: start;
      border-radius: 10px;
      border: solid 1px rgb(216, 216, 216);
-     overflow: hidden;
      font-family: Arial, sans-serif;
-     margin-left: 195px;
  }
 
- .menu-item {
+ .menu-item-homepage {
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -123,8 +107,6 @@
 
 
  .frase-homepage {
-     position: relative;
-     top: -340px;
      font-size: 25px;
      text-align: center;
  }
@@ -138,75 +120,51 @@
      text-align: center;
  }
 
- .pointer-vertudo {
-    
- }
-
- .services-container {
-     text-align: center;
- }
-
  .lista-homepage {
      display: flex;
      justify-content: center;
      gap: 50px;
      width: 100%;
-     position: relative;
-     top: -320px;
      align-items: center;
      justify-content: center;
-
-
  }
 
  .lista-homepage ul {
      list-style: none;
  }
 
-<<<<<<< HEAD
-.subtitulosHome{
-    position: relative;
-    top: -1050px;
-}
-.especialidades-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-    justify-content: center;
-    max-width: 800px;
-    margin: 20px auto;
-}
+ .especialidades-grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 15px;
+     justify-content: center;
+     width: 100px;
+     margin: auto;
+ }
 
-.especialidade {
-    background-color: white;
-    border: 2px solid #007bff;
-    padding: 20px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-    top: -1000px;
-    position: relative;
-}
+ .especialidade {
+     background-color: white;
+     border: 2px solid #007bff;
+     padding: 20px;
+     text-align: center;
+     border-radius: 8px;
+     transition: transform 0.3s ease, background-color 0.3s ease;
+ }
 
-.especialidade:hover {
-    transform: scale(1.1);
-    background-color: #e0f0ff;
-}
+ .especialidade:hover {
+     transform: scale(1.1);
+     background-color: #e0f0ff;
+ }
 
-.selecionado {
-    background-color: #1e2b64;
-    color: white;
-}
-.ortopedia {
-    background-color: #002b80 !important; /* Azul escuro */
-}
+ .ortopedia {
+     background-color: #002b80;
+     color: white;
+ }
 
-.ortopedia:hover {
-    background-color: #4d94ff !important; /* Azul claro */
-}
-=======
+ .ortopedia:hover {
+     background-color: #4d94ff !important;
+ }
+
  .lista-homepage ul li {
      font-size: 20px;
      color: #2c3e50;
@@ -230,21 +188,35 @@
      flex-direction: column;
      align-items: flex-end;
      gap: 20px;
-     position: relative;
-     top: -800px;
-     margin: 200px;
+     margin-left: 1%;
+
 
  }
 
- .segundoParagrafo {
-     text-align: center;
-     top: -1150px;
-     position: relative;
+ .segundoParagrafoHome {
+     text-align: justify;
      font-size: 18px;
+     width: 600px;
+     margin: auto;
+
  }
 
- .subtitulosHome {
-     position: relative;
-     top: -1050px;
+ .especialidade.ortopedia img {
+     filter: brightness(0) invert(1);
+
  }
->>>>>>> f467530030f8d2248b897afbd5bd3c09030ca41c
+
+ .medicoBranco {
+     margin: auto;
+     width: 100%;
+     height: 500px;
+
+ }
+
+ .conjunto-nossos-servicos {
+     display: flex;
+     margin-top: 50px;     justify-content: center;
+     align-items: flex-start;
+
+     /* default 0 */
+ }
