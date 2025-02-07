@@ -1,7 +1,8 @@
 .container-sobre-master {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .img-doutores-sobre {
