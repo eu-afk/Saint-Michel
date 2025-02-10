@@ -45,7 +45,6 @@
 
  .segundoTitulo {
      text-align: center;
-     margin-top: -15px;
      font-family: 'sans-serif';
      color: rgba(31, 43, 108, 255);
      font-weight: bold;
@@ -70,10 +69,10 @@
      color: inherit;
  }
 
- .homepage-container {
+/*  .homepage-container {
      flex-direction: column;
      align-items: center;
- }
+ } */
 
  .menu-servicos-homepage {
      width: 8%;
@@ -133,29 +132,18 @@
      list-style: none;
  }
 
-<<<<<<< HEAD
+ .subtitulosHome {
+     position: relative;
+ }
+
  .especialidades-grid {
      display: grid;
-     grid-template-columns: repeat(3, 1fr);
+     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
      gap: 15px;
      justify-content: center;
-     width: 100px;
-     margin: auto;
+     max-width: 800px;
+     margin: 20px auto;
  }
-=======
-.subtitulosHome{
-    position: relative;
-    top: -1050px;
-}
-.especialidades-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-    justify-content: center;
-    max-width: 800px;
-    margin: 20px auto;
-}
->>>>>>> a160f6b3bd00c2f52d785e310b818e5b784e6b3b
 
  .especialidade {
      background-color: white;
@@ -180,13 +168,11 @@
      background-color: #4d94ff !important;
  }
 
-<<<<<<< HEAD
-=======
-.ortopedia:hover {
-    background-color: #4d94ff !important; /* Azul claro */
-}
+ .ortopedia:hover {
+     background-color: #4d94ff !important;
+     /* Azul claro */
+ }
 
->>>>>>> a160f6b3bd00c2f52d785e310b818e5b784e6b3b
  .lista-homepage ul li {
      font-size: 20px;
      color: #2c3e50;
@@ -227,7 +213,6 @@
      filter: brightness(0) invert(1);
 
  }
-<<<<<<< HEAD
 
  .medicoBranco {
      margin: auto;
@@ -238,11 +223,9 @@
 
  .conjunto-nossos-servicos {
      display: flex;
-     margin-top: 50px;     justify-content: center;
+     margin-top: 50px;
+     justify-content: center;
      align-items: flex-start;
 
      /* default 0 */
  }
-=======
- 
->>>>>>> a160f6b3bd00c2f52d785e310b818e5b784e6b3b
