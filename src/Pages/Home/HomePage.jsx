@@ -76,7 +76,7 @@ const HomePage = () => {
             <div className="homepage-container">
                 <p className='titulo'>BEM VINDO A SAINT-MICHEL</p>
                 <h4 className='segundoTitulo'>Um ótimo lugar para receber cuidados</h4>
-                <p className='paragrafoHome'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat <br />scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur<br /> proin massa in. Consequat faucibus porttitor enim et.</p>
+                <p className='paragrafoHome'>Confira os serviços fornecidos pela nossa rede.</p>
                 <p className='saibaMais'> <Link to='/servicos'>Saiba mais</Link>
                     <img className='seta' src="../src/img/seta.png" />
                 </p>
@@ -123,8 +123,8 @@ const HomePage = () => {
                     </div>
                     {/* Segundo Paragrafo */}
                     <div className='segundoParagrafoHome'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare.</p>
-                        <p>Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.</p>
+                        <br></br>
+                        <p>Na Rede Hospitalar Saint Michel, temos uma paixão pela cura que guia cada passo do nosso trabalho, sustentada por um legado de excelência em cuidados médicos. Contamos com profissionais capacitados e dedicados, prontos para oferecer o melhor atendimento em um ambiente seguro e moderno. Nossa prioridade é o atendimento humanizado, colocando o paciente no centro de tudo, enquanto utilizamos tecnologia de ponta para diagnósticos precisos e tratamentos eficazes. Aqui, sua saúde está em boas mãos..</p>
                     </div>
                 </div>
 

@@ -23,25 +23,21 @@ export default function SobrePage() {
 
                     <div className='container-listas'>
                         <ul className='ul-container-listas'>
-                            <li className='li-container-listas'>A Passion for Healing</li>
-                            <li className='li-container-listas'>All our best</li>
-                            <li className='li-container-listas'>Always Caring</li>
+                            <li className='li-container-listas'>Uma Paixão pela Cura</li>
+                            <li className='li-container-listas'>Todo o Nosso Melhor</li>
+                            <li className='li-container-listas'>Cuidando Sempre</li>
                         </ul>
 
                         <ul className='ul-container-listas'>
-                            <li className='li-container-listas'>5-Star Care</li>
-                            <li className='li-container-listas'>Believe in Us</li>
-                            <li className='li-container-listas'>A Legacy of Excellence</li>
+                            <li className='li-container-listas'>Atendimento 5 Estrelas</li>
+                            <li className='li-container-listas'>Acredite em Nós</li>
+                            <li className='li-container-listas'>Um Legado de Excelência</li>
                         </ul>
                     </div>
 
                     <div className="container-texto-sobre">
                         <p className="texto-sobre">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam doloremque quam, dicta eius debitis nulla odio fugiat a illum cupiditate illo iusto porro, laudantium quis error at nisi soluta quia!
-                        </p>
-
-                        <p className="texto-sobre">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam doloremque quam, dicta eius debitis nulla odio fugiat a illum cupiditate illo iusto porro, laudantium quis error at nisi soluta quia!
+                        Na Rede Hospitalar Saint Michel, temos uma paixão pela cura, dedicando todo o nosso melhor em cada detalhe do cuidado com o paciente. Nosso compromisso é cuidar sempre, oferecendo uma atenção personalizada e acolhedora que faz a diferença na vida de quem confia em nós. Reconhecidos por um atendimento 5 estrelas, unimos tecnologia de ponta e profissionais experientes para garantir a melhor experiência possível. Ao escolher a Saint Michel, você pode acreditar em nós e em um legado de excelência que coloca sua saúde e bem-estar em primeiro lugar.
                         </p>
                     </div>
                 </div>
@@ -49,8 +45,8 @@ export default function SobrePage() {
             <Banner />
 
             <div className='titulo-subtitulo-sobre'>
-                <h1 className='titulo-sobre'>CUIDADO CONFIAVEL</h1>
-                <h2 className='subTitulo-sobre-2'>NOSSOS MÉDICOS</h2>
+                <h1 className='titulo-sobre'>CUIDADO CONFIÁVEL</h1>
+                <h2 className='subTitulo-sobre-2'>Nossos Médicos</h2>
             </div>
 
             <Doutores />

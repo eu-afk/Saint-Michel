@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
 .container-sobre-master {
     display: flex;
     justify-content: center;
@@ -18,16 +21,22 @@
 
 .titulo-sobre {
     font-size: 20px;
+    font-weight: bold;
     color: #159EEC;
 }
 
 .subTitulo-sobre {
     color: #1F2B6C;
-    font-size: 50px;
+    font-family: "Yeseva One", serif;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 .container-listas {
     display: flex;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .ul-container-listas {
@@ -37,6 +46,7 @@
 .li-container-listas {
     font-size: 25px;
     padding: 10px;
+    color: rgba(0, 0, 0, 0.753);
 }
 
 .texto-sobre {
@@ -63,4 +73,7 @@
 
 .subTitulo-sobre-2 {
     color: #1F2B6C;
+    font-family: "Yeseva One", serif;
+    font-size: 40px;
+    font-weight: 400;
 }
