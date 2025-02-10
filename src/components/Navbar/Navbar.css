@@ -19,15 +19,11 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  width: 28%;
+  width: 15%;
 }
 
 .logo-img {
-  height: 50px;
-}
-
-.logo-frase {
-  width: 10%;
+  width: 100%;
 }
 
 .hospital-name {
