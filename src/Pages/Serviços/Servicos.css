@@ -1,4 +1,18 @@
 /* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+:root {
+    --primary-font: "Yeseva One", serif;
+    --color-dark-blue: #1F2B6C;
+    --color-dark-hover: #1f2b6ca8;
+    --color-blue-card-info: #2c3e50;
+    --color-card-info: #7f8c8d;
+    --color-background-card: #7dbeff25;
+    --color-light-blue: #159EEC;
+    --color-azul-calcinha: #BFD2F8;
+    --color-dark-gray: #333;
+  }
+
 .img-servicos {
     width: 100%;
 }
@@ -31,7 +45,7 @@ body {
 }
 
 .card-servico {
-    background: #7dbeff25;
+    background: var(--color-background-card);
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -55,7 +69,7 @@ body {
 
 .content-servico h3 {
     margin: 40px 0 10px;
-    color: #1F2B6C;
+    color: var(--color-dark-blue);
 }
 
 .content-servico p {
@@ -67,7 +81,7 @@ body {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: #0080ff;
+    color: var(--color-light-blue);
     font-weight: bold;
 }
 

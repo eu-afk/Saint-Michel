@@ -31,7 +31,7 @@ const Contatos = () => {
 
       <div className="contato-container">
         <h2 className="titulo-contato">ENTRE EM CONTATO</h2>
-        <h3 className="subtitulo-contato">Contatos</h3>
+        <h3 className="subtitulo-contato">Contato</h3>
         <form className="contato-form">
           <div className="form-row">
             <input type="text" name="nome" placeholder="Nome" required className="placeholder-branco" />

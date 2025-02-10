@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+:root {
+    --primary-font: "Yeseva One", serif;
+    --color-dark-blue: #1F2B6C;
+    --color-dark-hover: #1f2b6ca8;
+    --color-blue-card-info: #2c3e50;
+    --color-card-info: #7f8c8d;
+    --color-background-card: #7dbeff25;
+    --color-light-blue: #159EEC;
+    --color-azul-calcinha: #BFD2F8;
+    --color-dark-gray: #333;
+  }
+
 /* Parte de contato */
 .contact-section {
     padding: 20px;
@@ -8,19 +21,19 @@
 
 .contact-section h2 {
     font-size: 18px; /* Tamanho da fonte pequena */
-    color: #159EEC; /* Cor azul claro */
+    color: var(--color-light-blue); /* Cor azul claro */
     font-weight: bold;
     margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
 .contact-section .CONTATO {
-    color: #1F2B6C; /* Azul escuro */
+    color: var(--color-dark-blue); /* Azul escuro */
 }
 
 .CONTATO{
-    font-family: "Yeseva One", serif;
+    font-family: var(--primary-font);
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .contact-grid {
@@ -47,14 +60,14 @@
 }
 
 .contact-card h4 {
-    color: #1F2B6C; /* Cor azul claro para os títulos */
+    color: var(--color-dark-blue); /* Cor azul claro para os títulos */
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .contact-card p {
-    color: #007bff; /* Azul escuro para as informações */
+    color: var(--color-light-blue); /* Azul escuro para as informações */
     font-size: 14px;
     font-weight: normal;
 }

@@ -1,9 +1,19 @@
+:root {
+  --primary-font: "Yeseva One", serif;
+  --color-dark-blue: #1F2B6C;
+  --color-dark-hover: #1f2b6ca8;
+  --color-blue-card-info: #2c3e50;
+  --color-card-info: #7f8c8d;
+  --color-background-card: #7dbeff25;
+  --color-light-blue: #159EEC;
+  --color-azul-calcinha: #BFD2F8;
+  --color-dark-gray: #333;
+}
+
 .card-doutores {
   margin-left: 5%;
   margin-right: 5%;
 }
-
-
 
 .container-doutores {
   display: grid;
@@ -22,7 +32,7 @@
 }
 
 .profile-button-doutores {
-  background: #1F2B6C;
+  background: var(--color-dark-blue);
   color: #f2f7ff;
   border: none;
   padding: 10px;
@@ -30,7 +40,8 @@
   font-size: 14px;
   margin-top: 10px;
   transition: background 0.3s ease;
-  border-radius: 0; /* Adicionado para deixar o botão quadrado */
+  border-radius: 0;
+  /* Adicionado para deixar o botão quadrado */
 }
 
 .profile-button-doutores:hover {
@@ -43,7 +54,7 @@
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
-  background-color: #BFD2F8;
+  background-color: var(--color-azul-calcinha);
   width: 60%;
   margin: auto;
 }
@@ -52,9 +63,9 @@
   transform: scale(1.01);
 }
 
-.Doctor-Hover:hover{
+.Doctor-Hover:hover {
   transform: scale(1.01);
-  background-color: #1f2b6c8c;
+  background-color: var(--color-dark-hover);
 }
 
 .texto-doutores {
