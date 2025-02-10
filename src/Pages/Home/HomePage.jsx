@@ -12,10 +12,10 @@ import dna from '../../img/dna.png';
 import bancoSangue from '../../img/bancoSangue.png';
 import grupo from '../../img/grupo.png';
 import cuidados from '../../img/cuidados.png';
-
+import CarouselMedico from '../../components/CarrosselMedicos/CarrosselMedicos'
 
 import neurologia from '../../img/neurologia.png';
-import coracao from '../../img/coracao.png';
+import coracaoEscuro from '../../img/coracaoEscuro.png';
 import oncologia from '../../img/oncologia.png';
 import otorrino from '../../img/otorrino.png';
 import oftalmologia from '../../img/oftalmologia.png';
@@ -27,20 +27,19 @@ import urologia from '../../img/urologia.png';
 import dermatologia from '../../img/dermatologia.png';
 import ginecologia from '../../img/ginecologia.png';
 import { Link } from 'react-router-dom';
-import Doutores from '../../components/Doutores/Doutores'
 import Contato from '../../components/Contato/Contato'
 
 
 const services = [
-    { img: checkup, style: 'light' },
-    { img: cardiograma, style: 'dark' },
-    { img: dna, style: 'light' },
-    { img: bancoSangue, style: 'light' }
+    { img: checkup },
+    { img: cardiograma },
+    { img: dna},
+    { img: bancoSangue }
 ];
 
 const especialidades = [
     { img: neurologia },
-    { nome: "Ortopedia", img: coracao },
+    { nome: "Ortopedia", img: coracaoEscuro },
     { img: oncologia },
     { img: otorrino },
     { img: oftalmologia },
@@ -152,7 +151,7 @@ const HomePage = () => {
                 {especialidades.map((item, index) => (
                     <div
                         key={index}
-                        className={`especialidade ${item.nome === "Ortopedia" ? "ortopedia" : ""}`}
+                        className={`especialidade`}
                     >
                         <img src={item.img} alt={item.nome} />
                         <p>{item.nome}</p>
@@ -164,7 +163,14 @@ const HomePage = () => {
 
             {/* Segunda Imagem*/}
             <img className='medicoBranco' src="../src/img/medicoBranco.png" />
-            <Doutores />
+            
+            
+                {/* Titulos finais */}
+              <div className='titulosFinais'>
+                <p className='titulo'>CUIDADO CONFIÁVEL</p>
+                <h4 className='segundoTitulo'>Nossos Médicos</h4>
+            </div>
+            <CarouselMedico />
             <Contato />
             <Footer />
 

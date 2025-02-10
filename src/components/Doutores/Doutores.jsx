@@ -5,11 +5,11 @@ import Footer from "../../components/Footer/Footer";
 
 const doctors = [
   { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
+  { name: "Dr. Márcio", specialty: "Neurologista", image: "src/img/marcio.png" },
+  { name: "Dra. Ellen", specialty: "Neurologista", image: "src/img/ellen.png" },
   { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
-  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
-  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
-  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
-  { name: "Dr. Flávio", specialty: "Neurologista", image: "src/img/MedicoNego1.png" },
+  { name: "Dr. Márcio", specialty: "Neurologista", image: "src/img/marcio.png" },
+  { name: "Dra. Ellen", specialty: "Neurologista", image: "src/img/ellen.png" },
 ];
 
 const DoctorCard = ({ name, specialty, image }) => {

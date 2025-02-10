@@ -94,18 +94,7 @@
      padding: 10px;
  }
 
- .light {
-     background-color: #f1f7ff;
-     color: black;
- }
-
- .dark {
-     background-color: #1e2b64;
-     color: white;
- }
-
-
- .frase-homepage {
+  .frase-homepage {
      font-size: 25px;
      text-align: center;
  }
@@ -159,19 +148,6 @@
      background-color: #e0f0ff;
  }
 
- .ortopedia {
-     background-color: #002b80;
-     color: white;
- }
-
- .ortopedia:hover {
-     background-color: #4d94ff !important;
- }
-
- .ortopedia:hover {
-     background-color: #4d94ff !important;
-     /* Azul claro */
- }
 
  .lista-homepage ul li {
      font-size: 20px;
@@ -209,13 +185,11 @@
 
  }
 
- .especialidade.ortopedia img {
-     filter: brightness(0) invert(1);
-
- }
+ 
 
  .medicoBranco {
-     margin: auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
      width: 100%;
      height: 500px;
 
