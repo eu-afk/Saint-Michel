@@ -9,6 +9,7 @@ import Doutores from './Pages/Medicos/Medico.jsx'
 import Contatos from './Pages/Contatos/Contato.jsx'
 import ErroPage from './components/PaginaDeErro/ErrorPage.jsx'
 import Cadastro from './Pages/Cadastro/CadastroPage.jsx'
+import Agendamentos from './Pages/Agendamentos/Agendamentos.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/contato",
         element: <Contatos />
+      },
+      {
+        path: "/agendamentos",
+        element: <Agendamentos />
       },
       {
         path: "/cadastro",

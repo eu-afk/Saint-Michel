@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 /* Parte de contato */
 .contact-section {
     padding: 20px;
@@ -15,6 +15,12 @@
 
 .contact-section .CONTATO {
     color: #1F2B6C; /* Azul escuro */
+}
+
+.CONTATO{
+    font-family: "Yeseva One", serif;
+    font-size: 32px;
+    font-weight: 900;
 }
 
 .contact-grid {

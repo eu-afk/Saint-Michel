@@ -19,16 +19,11 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  width: 28%;
+  width: 15%;
 }
 
 .logo-img {
-  height: 50px;
-}
-
-.logo-frase {
-  width: 50%;
-  height: auto;
+  width: 100%;
 }
 
 .hospital-name {
@@ -95,8 +90,17 @@
   color: #1F2B6C;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .login-button:hover {
   background-color: #81a7ff;
+}
+
+.container-login-cadastro {
+  display: flex;
+}
+
+.botao-login-cadastro{
+  width: 200px;
 }

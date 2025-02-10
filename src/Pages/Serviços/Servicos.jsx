@@ -6,11 +6,11 @@ import Contato from "../../components/Contato/Contato";
 
 const cards = [
   { id: 1, title: "Checkup", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { id: 2, title: "Checkup", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { id: 3, title: "Checkup", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { id: 4, title: "Checkup", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { id: 5, title: "Checkup", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { id: 6, title: "Checkup", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }
+  { id: 2, title: "Proctologista", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+  { id: 3, title: "Endocrinologista", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+  { id: 4, title: "Fonoaudióloga", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+  { id: 5, title: "Pediatria", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+  { id: 6, title: "Oftalmologista", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." }
 ];
 
 const ContactInfo = [
