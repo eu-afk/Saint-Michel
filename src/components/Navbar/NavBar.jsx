@@ -40,6 +40,7 @@ export default function Navbar() {
           <Link to='/sobre'>Sobre</Link>
           <Link to='/servicos'>Serviços</Link>
           <Link to='/doutores'>Doutores</Link>
+          <Link to='/agendamentos'>Agendamentos</Link>
           <Link to='/contato'>Contato</Link>
         </div>
         <div className="nav-actions">

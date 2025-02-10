@@ -59,7 +59,7 @@
   .contato-form {
     background-color: #1F2B6C;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 2px;
     max-width: 600px;
     margin: 0 auto 40px;
   }
@@ -76,7 +76,7 @@
     width: 100%;
     padding: 10px;
     border: none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #ccc;
     background-color: #1F2B6C;
     color: white;
     outline: none;

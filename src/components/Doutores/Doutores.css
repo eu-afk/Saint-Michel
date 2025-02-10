@@ -30,8 +30,7 @@
   font-size: 14px;
   margin-top: 10px;
   transition: background 0.3s ease;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 0; /* Adicionado para deixar o botão quadrado */
 }
 
 .profile-button-doutores:hover {
@@ -45,7 +44,7 @@
   align-items: center;
   flex-grow: 1;
   background-color: #BFD2F8;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -66,7 +65,7 @@
 }
 
 .card-info-h3 {
-  font-size: 30px;
+  font-size: 38px;
 }
 
 .card-info-p {
