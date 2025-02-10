@@ -42,15 +42,18 @@ export default function Navbar() {
           <Link to='/agendamentos'>Agendamentos</Link>
           <Link to='/contato'>Contato</Link>
         </div>
-        <div className="nav-actions">
-          <FaSearch className="search-icon" />
-          <button className="login-button">LOGIN</button>
-        </div>
-        <div className="nav-actions">
-          <FaSearch className="search-icon" />
-          <button className="login-button">
-            <Link to='/cadastro'>Cadastro</Link>
-          </button>
+        <div className="container-login-cadastro">
+          <div className="nav-actions">
+            <FaSearch className="search-icon" />
+            <button className="botao-login-cadastro">
+              <Link to='/login' className="login-button"> Login</Link>
+            </button>
+          </div>
+          <div className="nav-actions">
+            <button className="botao-login-cadastro">
+              <Link to='/cadastro' className="login-button">Cadastro</Link>
+            </button>
+          </div>
         </div>
       </nav>
     </header>

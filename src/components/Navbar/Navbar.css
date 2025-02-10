@@ -90,8 +90,17 @@
   color: #1F2B6C;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .login-button:hover {
   background-color: #81a7ff;
+}
+
+.container-login-cadastro {
+  display: flex;
+}
+
+.botao-login-cadastro{
+  width: 200px;
 }
