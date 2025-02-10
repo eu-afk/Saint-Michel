@@ -19,22 +19,14 @@ function CadastroPage() {
 
         setFormData({
             ...formData,
-            [name]: name === 'cpf' ? value.replace(/\D/g, '') : value, // Garantir que CPF seja string
+            [name]: name === 'cpf' ? value.replace(/\D/g, '') : value,
         });
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-
-        // Verificar se todos os campos estão preenchidos
-        if (!formData.nome || !formData.idade || !formData.email || !formData.senha || !formData.cpf || !formData.endereco) {
-            console.error('Todos os campos devem ser preenchidos.');
-            return;
-        }
-
         try {
-            const response = await axios.post('http://localhost:3000/api/usuarios/', formData);
-            console.log('Paciente cadastrado com sucesso:', response.data);
+            await axios.post('http://localhost:3000/api/usuarios/', formData);
             setFormData({
                 nome: '',
                 idade: '',
