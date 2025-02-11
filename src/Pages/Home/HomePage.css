@@ -80,14 +80,8 @@ a {
     color: inherit;
 }
 
-/*  .homepage-container {
-     flex-direction: column;
-     align-items: center;
- } */
-
 .menu-servicos-homepage {
     width: 8%;
-    justify-content: start;
     border-radius: 10px;
     border: solid 1px rgb(216, 216, 216);
 }
@@ -96,17 +90,15 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 80px;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
     padding: 10px;
 }
 
 .frase-homepage {
-    font-size: 25px;
+    font-size: 30px;
+    width: 550px;
     text-align: center;
+    color: #333;
+    margin: auto;
 }
 
 
@@ -119,11 +111,9 @@ a {
 
 .lista-homepage {
     display: flex;
-    justify-content: center;
     gap: 50px;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    margin-top: 20px;
 }
 
 .lista-homepage ul {
@@ -154,7 +144,8 @@ a {
 
 .especialidade:hover {
     transform: scale(1.1);
-    background-color: #e0f0ff;
+    background-color: var(--color-dark-blue);
+    color: white;
 }
 
 
@@ -206,8 +197,11 @@ a {
 
 .conjunto-nossos-servicos {
     display: flex;
-    margin-top: 50px;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 50px ;
+}
 
+.img-menu-servicos{
+    width: 90px;
 }
