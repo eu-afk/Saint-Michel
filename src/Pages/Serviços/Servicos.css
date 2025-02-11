@@ -11,10 +11,6 @@
     --color-light-blue: #159EEC;
     --color-azul-calcinha: #BFD2F8;
     --color-dark-gray: #333;
-  }
-
-.img-servicos {
-    width: 100%;
 }
 
 body {
@@ -24,64 +20,65 @@ body {
     background-color: #f8f9fa;
 }
 
-.container-servicos {
-    width: 70%;
-    margin-top: 2%;
-    margin-left: 15%;
-    padding: 20px;
+.img-servicos {
+    width: 100%;
+    display: block;
+}
+
+/* Seção com imagem e texto lado a lado */
+.team-section {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 40px 5%;
+    gap: 40px;
 }
 
-.cards-section-servicos {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
-    gap: 20px;
-    justify-items: center;
-    margin-top: 20px;
-    width: 100%;
-}
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: space-around; /* Distribui os cards de forma uniforme */
+  }
+  
+  .card-servico {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 30%; /* Tamanho flexível para os cards, ocupa 30% da largura */
+    margin-bottom: 20px;
+  }
+  
+  
 
-.card-servico {
-    background: var(--color-background-card);
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
+.imgCard-servico {
     width: 100%;
-    height: 480px;
-    max-width: 350px;
-    min-width: 250px;
-}
-
-.image-servico {
-    height: 220px;
-    width: 100%;
-    border-radius: 3px;
+    height: 100%;
     object-fit: cover;
 }
 
-.card-servico:hover {
-    transform: translateY(-5px);
+.content-servico {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
 }
 
 .content-servico h3 {
-    margin: 40px 0 10px;
+    font-size: 38px;
+    font-family: var(--primary-font);
+    font-weight: bold;
     color: var(--color-dark-blue);
 }
 
 .content-servico p {
-    color: #666;
-    font-size: 14px;
+    color: #1f1f1f;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 .content-servico a {
-    display: inline-block;
-    margin-top: 10px;
-    text-decoration: none;
     color: var(--color-light-blue);
+    text-decoration: none;
     font-weight: bold;
 }
 
@@ -89,32 +86,74 @@ body {
     text-decoration: underline;
 }
 
+.text-container {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.tittle-contato {
+    color: var(--color-light-blue);
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.team-title {
+    color: var(--color-dark-blue);
+    font-family: var(--primary-font);
+    margin-top: 10px;
+    font-size: 32px;
+}
+
+.team-title-2 {
+    color: var(--color-dark-blue);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.team-description {
+    font-size: 1rem;
+    color: var(--color-dark-gray);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.title-card{
+    font-size: 102px;
+}
+
+.team-button {
+    background-color: transparent;
+    color: var(--color-light-blue);
+    border: 2px solid var(--color-dark-gray);
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.team-button:hover {
+    background-color: var(--color-light-blue);
+    color: #fff;
+}
+
 /* Responsividade */
 @media (max-width: 1024px) {
-    .container-servicos {
-        width: 85%;
+    .team-section {
+        flex-direction: column;
+        text-align: center;
     }
 
-    .cards-section-servicos {
-        grid-template-columns: repeat(2, 1fr);
+    .image-container, .text-container {
+        max-width: 100%;
+        padding: 0;
     }
-}
 
-@media (max-width: 768px) {
-    .cards-section-servicos {
-        grid-template-columns: repeat(2, 1fr);
+    .card-servico {
+        flex-direction: column;
     }
-}
 
-@media (max-width: 480px) {
-    .cards-section-servicos {
-        grid-template-columns: 1fr;
+    .image-servico {
+        width: 100%;
     }
-}
-
-.image-servico .imgCard-servico {
-    width: 100%;
-    height: 220px;
-    border-radius: 2px;
-    object-fit: cover;
 }
