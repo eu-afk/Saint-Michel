@@ -44,8 +44,11 @@ function CadastroPage() {
         <>
             <Navbar />
             <div className='container'>
+
+
                 <form onSubmit={handleSubmit}>
                     <h1>Cadastro</h1>
+
                     <input placeholder="Nome" name='nome' type='text' value={formData.nome} onChange={handleChange} />
                     <input placeholder="Idade" name='idade' type='number' value={formData.idade} onChange={handleChange} />
                     <input placeholder="Email" name='email' type='email' value={formData.email} onChange={handleChange} />
@@ -59,6 +62,7 @@ function CadastroPage() {
                         <option value="Outros">Prefiro não opinar</option>
                     </select> */}
                     <button type='submit'>Cadastrar</button>
+
                 </form>
             </div>
             <Footer />
