@@ -39,13 +39,14 @@ function CadastroPage() {
             console.error('Erro ao cadastrar paciente:', error.message);
         }
     };
-
     return (
         <>
             <Navbar />
+            
             <div className='container'>
-
-
+            <div className="containerimage2">
+                    <img src="src/img/medicocadastro.jpeg" alt="" />
+                </div>
                 <form onSubmit={handleSubmit}>
                     <h1>Cadastro</h1>
 
