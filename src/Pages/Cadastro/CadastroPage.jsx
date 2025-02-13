@@ -43,28 +43,29 @@ function CadastroPage() {
         <>
             <Navbar />
             
-            <div className='container'>
-            <div className="containerimage2">
-                    <img src="src/img/medicocadastro.jpeg" alt="" />
+            <div className="mainlogin">
+                <div className="leftlogin">
+                    <h1>Faça o Cadastro </h1>
+                    <h1>Outro texto</h1>
                 </div>
-                <form onSubmit={handleSubmit}>
-                    <h1>Cadastro</h1>
-
-                    <input placeholder="Nome" name='nome' type='text' value={formData.nome} onChange={handleChange} />
-                    <input placeholder="Idade" name='idade' type='number' value={formData.idade} onChange={handleChange} />
-                    <input placeholder="Email" name='email' type='email' value={formData.email} onChange={handleChange} />
-                    <input placeholder="Senha" name='senha' type='password' value={formData.senha} onChange={handleChange} />
-                    <input placeholder="CPF" name='cpf' type='text' value={formData.cpf} onChange={handleChange} />
-                    <input placeholder="Endereço" name='endereco' type='text' value={formData.endereco} onChange={handleChange} />
-                    {/* <select name="sexo" value={formData.sexo} onChange={handleChange}>
-                        <option value="">Sexo</option>
-                        <option value="Masculino">Masculino</option>
-                        <option value="Feminino">Feminino</option>
-                        <option value="Outros">Prefiro não opinar</option>
-                    </select> */}
-                    <button type='submit'>Cadastrar</button>
-
-                </form>
+                <div className="right-login">
+                    <div className="card-login">
+                        <h1>Cadastro</h1>
+                        <div className="textfield">
+                            <label for="usuario">Usuário</label>
+                            <input type="text" name="usuario" placeholder="Usuário"/>
+                        </div>
+                        <div className="textfield">
+                            <label for="senha">Senha</label>
+                            <input type="text" name="senha" placeholder="Senha"/>
+                        </div>
+                        <div className="textfield">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" placeholder="Email"/>
+                        </div>
+                        <button class="btn-cadastro">Cadastrar</button>
+                    </div>
+                </div>
             </div>
             <Footer />
         </>
