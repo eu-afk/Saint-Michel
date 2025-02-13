@@ -1,30 +1,28 @@
-body{
+body {
   margin: 0;
+
 }
 
-.mainlogin{
+.maincadastro {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(42, 32, 116);
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
-.leftlogin{
+.leftcadastro {
   width: 50vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url("src/img/medicoBranco.png");
 }
 
-.leftlogin > h1{
-  color: aquamarine;
-}
-
-.right-login{
+.right-cadastro {
   width: 50vw;
   height: 100vh;
   display: flex;
@@ -32,13 +30,76 @@ body{
   align-items: center;
 }
 
-.card-login{
+.card-cadastro {
   width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 30px 35px;
-  background-color: rgb(35, 12, 184);
+  padding: 40px;
+  background-color: #1f2b6c;
   border-radius: 20px;
+  box-shadow: 0px 10px 40px #1f2b6c;
+}
+
+.card-cadastro > h1 {
+  color: white;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+  font-size: 1.8rem;
+}
+
+.textfield {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.textfield > input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #bfd2f8;
+  color: rgb(0, 0, 0);
+  font-size: 14pt;
+  box-shadow: 0px 10px 40px #1f2b6c;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield > label {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.textfield > input::placeholder {
+  color: #000000;
+}
+
+.btn-cadastro {
+  width: 100%;
+  padding: 16px 0px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 4px;
+  font-size: 14px;
+  background-color: #bfd2f8;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #1f2b6c;
+  transition: 0.3s;
+}
+
+.btn-cadastro:hover {
+  background-color: #1f2b6c;
+  color: white;
 }

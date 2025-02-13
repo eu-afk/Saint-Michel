@@ -43,13 +43,11 @@ function CadastroPage() {
         <>
             <Navbar />
             
-            <div className="mainlogin">
-                <div className="leftlogin">
-                    <h1>Faça o Cadastro </h1>
-                    <h1>Outro texto</h1>
+            <div className="maincadastro">
+                <div className="leftcadastro">
                 </div>
-                <div className="right-login">
-                    <div className="card-login">
+                <div className="right-cadastro">
+                    <div className="card-cadastro">
                         <h1>Cadastro</h1>
                         <div className="textfield">
                             <label for="usuario">Usuário</label>
@@ -60,8 +58,20 @@ function CadastroPage() {
                             <input type="text" name="senha" placeholder="Senha"/>
                         </div>
                         <div className="textfield">
+                            <label for="senha">Confirmar Senha</label>
+                            <input type="text" name="senha" placeholder="Senha"/>
+                        </div>
+                        <div className="textfield">
                             <label for="email">Email</label>
                             <input type="text" name="email" placeholder="Email"/>
+                        </div>
+                        <div className="textfield">
+                            <label for="cpf">Cpf</label>
+                            <input type="text" name="cpf" placeholder="Cpf"/>
+                        </div>
+                        <div className="textfield">
+                            <label for="endereco">Endereço</label>
+                            <input type="text" name="endereco" placeholder="Endereco"/>
                         </div>
                         <button class="btn-cadastro">Cadastrar</button>
                     </div>
